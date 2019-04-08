@@ -1,0 +1,12 @@
+{
+  "name": "@therobot/vue-cli-plugin-tailwind",
+  "version": "0.0.3",
+  "description": "Opinionated Vue cli plugin, adds tailwindcss with some plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+ 
