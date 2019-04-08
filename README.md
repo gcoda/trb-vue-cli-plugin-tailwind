@@ -32,3 +32,6 @@ using `postcss-import` in `postcss.config.js` fixes it.
 
 Generating shades from one base color by taking thousands of small steps until desired WCAG Luminosity is reached.
 
+## 
+
+`vue add @therobot/tailwind`
