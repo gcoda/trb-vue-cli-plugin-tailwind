@@ -30,8 +30,7 @@ module.exports = (api, options) => {
 
     const file = tsExists ? 'src/main.ts' : 'src/main.js'
     api.injectImports(file, `import './tailwind/tailwind.postcss'`)
-  } catch (e) {
-    api.exitLog(e, 'warn')
-    api.exitLog(`Your main file couldn't be modified.`, 'warn')
+  } catch (error) {
+    api.exitLog(error, 'warn')
   }
 }
